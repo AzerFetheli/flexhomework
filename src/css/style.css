@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#header {
+    width: 100%;
+    height: 200px;
+}
+
+.headertop {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ececec;
+    font-size: 16px;
+
+}
+
+.top1 ul li {
+    display: inline;
+    margin-left: 5px;
+
+}
+.top1 ul li a{
+    color: #adadad;
+    transition: 0.5s;
+}
+.top1 ul li a:hover{
+    color: black;
+    transition: 0.5s;
+}
+.top3 {
+    text-decoration: none;
+
+}
+
+.top3 ul li {
+    display: inline;
+}
+
+
+.top3 ul li strong {
+    color: green;
+}
+
+
+.headermiddle {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 13px;
+    align-items: center;
+}
+
+.search {
+    border: 1px solid lightgreen;
+    width: 600px;
+    border-radius: 5px;
+    height: 50px;
+    margin-right: 150px;
+}
+
+.search select {
+    margin-top: 15px;
+    border: 0;
+    font-size: 20px;
+}
+
+.search input {
+    max-width: 600px;
+    background-color: #fff;
+    border: none;
+}
+
+.right {
+    display: flex;
+}
+.headermiddle .right a span{
+    color: #adadad;
+}
+
+.icon1 {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.headerbottom {
+    border: 0.3px solid #ececec;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 0;
+    align-items: center;
+    
+
+
+}
+
+.leftside a {
+    background-color: #3bb77e;
+    border: 1px solid none;
+    border-radius: 5px;
+    padding: 15px 40px;
+    margin-left: 10px;
+    color: #fff;
+
+}
+
+.center {
+    font-size: 18px;
+    margin-right: 300px;
+    
+}
+
+.center ul li {
+    display: inline;
+    margin-left: 31px;
+    font-weight: 700;
+    
+    transition: 0.5s
+}
+
+.center ul li :hover {
+    color: #3bb77e;
+    transition: 0.5s;
+}
+.center ul li a{
+    color: #253D4E
+}
+
+.rightside p {
+    font-size: 25px;
+    color: #3bb77e;
+    display: inline;
+}
+
+.rightside span {
+    display: block;
+    margin-left: 10px;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.products ul li {
+    display: inline;
+}
+
+.products h3 {
+    font-size: 25px;
+}
+
+.products ul li button {
+    padding: 0 10px;
+    background: none;
+    font-size: 15px;
+    color: #253D4E;
+    border: none;
+    transition: 0.5s;
+    font-weight: 800;
+}
+
+.products ul li button:hover {
+    color: #3bb77e;
+    transition: 0.5s;
+    
+}
+
+.container {width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container .cards {
+    
+    width: 19%;
+    box-sizing: border-box;
+    border: 1px solid #ececec;
+    margin-bottom: 20px;
+}
+
+.cards img {
+    width: 100%;
+}
+
+.cards .text { 
+    padding: 0 20px 20px 20px;
+}
+.titlediv{
+    margin-bottom: 10px;
+}
+.title {color: #adadad;
+    transition: 0.5px;
+}
+.title:hover{
+    color: #3bb77e;
+   transition: 0.5px;
+}
+.cards .text .add {
+    padding: 6px 20px 6px 20px;
+    margin-left: 60px;
+    border: 1px solid none;
+    border-radius: 5px;
+    background-color: #def9ec;
+    transition: 0.5s;
+}
+
+.cards .text .add:hover {
+    background-color: #3bb77e;
+    transition: 0.5s;
+}
+
+.about {
+    color: black;
+    transition: 0.5s;
+}
+
+.about:hover {
+    color: #3bb77e;
+    transition: 0.5s;
+}
+.nestfood{
+    color: #3bb77e;
+    transition: 0.5s;
+}
+.nestfood:hover{
+    color: orange;
+    transition: 0.5s;
+}
+.span{ display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.price {
+    font-size: 18px;
+    color: #3bb77e;
+}
+
+.oldprice {
+    color: #adadad;
+    font-size: 16px;
+    text-decoration: line-through;
+}
